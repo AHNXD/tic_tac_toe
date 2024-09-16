@@ -134,7 +134,7 @@ class _MultiPlayerScreenState extends State<MultiPlayerScreen> {
           },
           child: Text(
             value,
-            style: const TextStyle(fontSize: 50),
+            style: const TextStyle(fontSize: 50, color: Colors.black),
           )),
     );
   }
@@ -148,7 +148,7 @@ class _MultiPlayerScreenState extends State<MultiPlayerScreen> {
         centerTitle: true,
         title: const Text(
           "Multiplayer Player",
-          style: TextStyle(fontSize: 35),
+          style: TextStyle(fontSize: 35, color: Colors.white),
         ),
       ),
       body: Center(

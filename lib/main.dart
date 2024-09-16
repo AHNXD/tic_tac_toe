@@ -3,6 +3,7 @@ import 'package:tic_tac_toe/pages/HomeScreen.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     builder: (context, child) {
       return MediaQuery(
           data: MediaQuery.of(context)

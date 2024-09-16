@@ -203,7 +203,7 @@ class _SinglePlayerScreenState extends State<SinglePlayerScreen> {
           },
           child: Text(
             value,
-            style: const TextStyle(fontSize: 50),
+            style: const TextStyle(fontSize: 50, color: Colors.black),
           )),
     );
   }
@@ -217,7 +217,7 @@ class _SinglePlayerScreenState extends State<SinglePlayerScreen> {
         centerTitle: true,
         title: const Text(
           "Single Player",
-          style: TextStyle(fontSize: 40),
+          style: TextStyle(fontSize: 40, color: Colors.white),
         ),
       ),
       body: Center(
